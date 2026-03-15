@@ -1,3 +1,4 @@
+//Calculating the longest subarray containing only positives with a Sum K.
 //OPTIMAL APPROACH
 public class Q13LongestSubarray{
     public static void main(String[] args) {
