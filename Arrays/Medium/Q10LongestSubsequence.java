@@ -1,10 +1,8 @@
-import java.util.Arrays;
 import java.util.HashSet;
 
 public class Q10LongestSubsequence {
     public static void main(String[] args) {
         int[] arr = {1, 9, 3, 10, 4, 20, 2, 21, 24, 22, 23};
-        int n=arr.length;
         int maxcnt=1;
         HashSet <Integer> hs = new HashSet<>();
         for(int i:arr){
@@ -28,6 +26,7 @@ public class Q10LongestSubsequence {
 }
 
 // BETTER APPROACH
+// import java.util.Arrays;
 // public class Q10LongestSubsequence {
 //     public static void main(String[] args) {
 //         int[] arr = {1, 9, 3, 10, 4, 20, 2, 21, 24, 22, 23};
