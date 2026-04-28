@@ -1,4 +1,4 @@
-public class Q12MedianOf2SortedArrays {
+public class Q13MedianOf2SortedArrays {
     public static double findMedianSortedArrays(int[] nums1, int[] nums2) {
         if (nums2.length < nums1.length) {
             return findMedianSortedArrays(nums2, nums1);
