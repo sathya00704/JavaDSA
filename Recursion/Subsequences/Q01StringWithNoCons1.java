@@ -10,6 +10,7 @@ public class Q01StringWithNoCons1 {
     }
 
     private static void backtrack(int idx, int n, boolean prev, StringBuilder sb, List<String> ans){
+        //If we've filled all n positions, the current string is complete.
         if(idx==n){
             ans.add(sb.toString());
             return;
