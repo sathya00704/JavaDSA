@@ -4,8 +4,6 @@ class Q05SingleNumber3 {
         for(int i: nums){
             xor=xor^i;
         }
-        boolean flag = false;
-        int i=0;
         int diff = xor & -xor;
         int b=0;
         int c=0;

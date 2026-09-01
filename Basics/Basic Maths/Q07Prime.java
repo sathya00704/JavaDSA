@@ -1,4 +1,3 @@
-import java.util.*;
 public class Q07Prime {
     public static void main(String[] args) {
         int n=13;
